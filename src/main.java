@@ -12,10 +12,20 @@ public class main {
             cyklus += i;
         }
         System.out.println(cyklus);
+
+        int test = factorial(5);
+        
     }
 
     private static int soucet(int b) {
         int a = 5;
         return a + b;
+    }
+    
+    private static int factorial (int cislo){
+        if(cislo <= 1){
+            return 1;
+        }
+        else return cislo*factorial(cislo - 1);
     }
 }
