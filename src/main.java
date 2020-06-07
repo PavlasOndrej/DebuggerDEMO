@@ -7,7 +7,11 @@ public class main {
         int vypocet;
         vypocet = soucet(b);
 
-        for (int i = 1; )
+        int cyklus = 0;
+        for (int i = 1; i<10; i++){
+            cyklus += i;
+        }
+        System.out.println(cyklus);
     }
 
     private static int soucet(int b) {
